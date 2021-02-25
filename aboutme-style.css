@@ -42,7 +42,20 @@ h2{
 }
 
 
-a:link,a:visited{
-	color: red;
+a:link, a:visited{
+	background-color: #f44336;
+	color: white;
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
 }
 
+a:hover{
+	background-color: red;
+	text-decoration: underline;
+}
+
+p::first-letter{
+	font-size: xx-large;
+}
